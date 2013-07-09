@@ -1,0 +1,56 @@
+<a id='contact'></a>
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="span7 text-left">
+        <h3 class="footer-title">Votre projet</h3>
+        <p>
+          Vous souhaitez monter un projet internet ? Créer votre site web ?<br>
+          Vous souhaitez simplement échanger à propos de votre projet ?
+        </p>
+        <a href="mailto:adrien__at__rambert.me" class="btn btn-warning">Rencontrons-nous !</a>
+        <div>
+          <br/>
+          Ce que je vous propose:
+          <ul class='text-left unstyled'>
+            <li class=""><span class="icons"><span class="second-icon fui-checkbox-checked"></span></span> Une gestion de projet s'appuyant sur des methodes agiles</li>
+            <li class=""><span class="icons"><span class="second-icon fui-checkbox-checked"></span></span> Des livrables très réguliers</li>
+            <li class=""><span class="icons"><span class="second-icon fui-checkbox-checked"></span></span> Une relation de travail basée sur l'échange régulier et efficace</li>
+          </ul>
+        </div>
+        <a href="mailto:adrien__at__rambert.me" class="btn btn-info">Contactez-moi !</a>
+        <br/>
+      </div> 
+
+      <div class="span5">
+        <div class="footer-banner">
+          <h3 class="footer-title">Contactez-moi</h3>
+          <table class="contact">
+            <tr><td><i class='icon-envelope'></i></td><td><a class='email' href="mailto:adrien__at__rambert.me" target="_top">adrien__at__rambert.me</a></td></tr>
+            <tr><td><i class='icon-github'></i></td><td><a href='https://github.com/arambert'>github.com/arambert</a></td></tr>
+            <tr><td><i class='icon-twitter'></i></td><td><a href='https://twitter.com/adrienrambert'>@adrienrambert</a></td></tr>
+            <tr>
+              <td style='vertical-align:top;'><i class='icon-home'></i></td>
+              <td>
+                <address>
+                  <strong>Adrien Rambert</strong><br/>
+                  28, avenue de l'Europe<br/>
+                  92300 Levallois Perret
+                </address>
+              </td>
+            </tr>
+          </table>
+
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class='clear'></div>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('footer a').each(function(){$(this).attr('href', $(this).attr('href').replace('__at__', '@'))});
+      $('footer a').each(function(){$(this).html($(this).html().replace('__at__', '@'))});
+    })
+  </script>
+</footer>
