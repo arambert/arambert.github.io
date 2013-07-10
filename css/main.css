@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Permanent+Marker);
 /*****************************************************************************/
 /*
 /* Common
@@ -40,10 +41,11 @@ table {
 /*
 /*****************************************************************************/
 /* Top Menu */
+.navbar .container{width: 940px !important;}
 .navbar-inner{
   border-radius: 0px !important;
 }
-ul.nav li:first-child a{font-size: 17px;}
+ul.nav li:first-child a{font-size: 17px;padding-left:0px;font-family: 'Permanent Marker', cursive;}
 ul.nav li:not(:first-child) a{font-size: 15px;font-weight: normal;}
 /* Footer */
 table.contact td{text-align: left; padding: 8px 3px;font-size: 16px;}
@@ -56,16 +58,18 @@ footer{
   line-height: 1.5em !important;
 }
 footer p{font-size: 100% !important;line-height: 1.5em !important;}
-footer .footer-banner{min-height:700px;}
-footer ul{margin-top:10px;}
-footer ul li{margin-bottom:10px;}
-footer ul li .icons{margin-right:5px;}
-footer .btn{margin-top:20px; margin-bottom: 10px;}
+footer .footer-banner{min-height:400px;}
+
 /*****************************************************************************/
 /*
 /* Home
 /*
 /*****************************************************************************/
+.home h1{
+  margin-top: 50px;
+  margin-bottom: 60px;
+  font-family: 'Permanent Marker', cursive;
+}
 ul.posts {
   list-style-type: none;
   margin-bottom: 2em;
@@ -87,6 +91,10 @@ h2{
   margin-top: 80px !important;
   margin-bottom: 40px !important;
 }
+.prestations .btn, footer .btn{margin-top:20px; margin-bottom: 20px;}
+.prestations ul{margin-top:10px;}
+.prestations ul li{margin-bottom:10px;}
+.prestations ul li .icons{margin-right:5px;}
 .todo-head {
   position: relative;
   background: #1abc9c;
@@ -123,14 +131,14 @@ h2{
 .competences .tagsinput{
   height: auto;
 }
-.realisations td:first-child{padding-top: 12px;}
-.realisations td .tagsinput{
+.references td:first-child{padding-top: 12px;}
+.references td .tagsinput{
   border: none;height:auto;margin:auto;background-color: transparent;
 }
-.realisations td i.icon-external-link{
+.references td i.icon-external-link{
   margin-left: 5px;
 }
-.realisations .open-source{margin-bottom:5px;display:block;font-size: 14px;}
+.references .open-source{margin-bottom:5px;display:block;font-size: 14px;}
 /*****************************************************************************/
 /*
 /* Site

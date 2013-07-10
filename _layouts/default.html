@@ -27,10 +27,11 @@
         <![endif]-->
 
     </head>
-    <body>
+    <body class='{{page.class}}'>
       {% include menu.html %}
 
       <div class="container">
+        <h1>{{page.h1}}</h1>
         <div class="site">
           {{ content }}
         </div>

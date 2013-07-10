@@ -1,30 +1,29 @@
 ---
 layout: default
 title: Adrien Rambert - développeur ruby et javascript freelance - ruby on rails - backbone.js
-h1: Adrien Rambert
+h1: Développeur Ruby et Javascript freelance
+class: home
 ---
 
 <div id="home">
 
-  <a id='presentation'></a>
-	<div id="presentation" class="row">
-		<div class="span2">
-			<img src="/images/profile_pic_ar.png" width='160px' class="img-rounded">
-		</div>
-		<div class="span9">
-			<p>Bienvenue !</p>
-			<p>Je suis ingénieur, spécialisé en architecture et développement d'applications web.</p>
-			<p>Passionné par les technologies web, le webmarketing, la gestion de projet agile et le travail d'équipe, j'aime travailler sur des projets complexes et apporter la technologie la plus adaptée aux problématiques rencontrées.</p>
-			<p><br/><br/></p>
-		</div>
-		<div class='clear'></div>
+	<div class="row">
+
+    <div class="span4">
+      <div class="tile">
+        <img src="images/icons/Pensils@2x.png" alt="Pensils@2x" class="tile-image">
+        <h3 class="tile-title">Pour votre projet</h3>
+        <p>A votre écoute pour mieux vous conseiller et pour le succès de votre projet.</p>
+        <a class="btn btn-primary btn-large btn-block" href="#prestations">Mes prestations</a>
+      </div>
+    </div>
 
     <div class="span4">
       <div class="tile">
         <img src="images/icons/Compas@2x.png" alt="Compas@2x" class="tile-image big-illustration">
-        <h3 class="tile-title">Ingénieur</h3>
+        <h3 class="tile-title">Un ingénieur</h3>
         <p>Directeur technique, architecte logiciel, développeur.</p>
-        <a class="btn btn-primary btn-large btn-block" href="#competences">Compétences</a>
+        <a class="btn btn-primary btn-large btn-block" href="#competences">Mes compétences</a>
       </div>
     </div>
 
@@ -33,21 +32,14 @@ h1: Adrien Rambert
         <img src="images/icons/Infinity-Loop@2x.png" alt="Infinity-Loop@2x" class="tile-image">
         <h3 class="tile-title">Expérimenté</h3>
         <p>Développeur depuis 15 ans, auteur d'application complexes.</p>
-        <a class="btn btn-primary btn-large btn-block" href="#realisations">Réalisations</a>
+        <a class="btn btn-primary btn-large btn-block" href="#references">Mes références</a>
       </div>
     </div>
 
-    <div class="span4">
-      <div class="tile">
-        <img src="images/icons/Pensils@2x.png" alt="Pensils@2x" class="tile-image">
-        <h3 class="tile-title">Pour votre projet</h3>
-        <p>A votre écoute pour mieux vous conseiller et pour le succès de votre projet.</p>
-        <a class="btn btn-primary btn-large btn-block" href="#contact">Votre projet</a>
-      </div>
-    </div>
   </div>
 
+  {% include prestations.html %}
 	{% include competences.html %}
-	{% include realisations.html %}
+	{% include references.html %}
 
 </div>
