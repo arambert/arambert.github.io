@@ -41,6 +41,9 @@ table {
 /*
 /*****************************************************************************/
 /* Top Menu */
+@media screen and (max-width: 658px) {
+  .navbar { display: none; }
+}
 @media screen and (min-width: 1000px) {
   .navbar .container{width: 940px !important;}
 }
